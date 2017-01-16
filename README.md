@@ -2,6 +2,7 @@
 Allows testimonials to be embedded on app
 
 Example 1:
+```
     <html>
     <head>
 		<script type="text/javascript">
@@ -13,8 +14,9 @@ Example 1:
 		<div id="embed-widget-container"></div>
 	</body>
 	</html>
-	
+```	
 Example 2 (to skip embedding another script):
+```
     <html>
 		<head>
 		</head>
@@ -22,4 +24,5 @@ Example 2 (to skip embedding another script):
 		<iframe src="https://www.discuss.io?em_embed=testimonials"></iframe>
 	</body>
 	</html>
+```	
 	
