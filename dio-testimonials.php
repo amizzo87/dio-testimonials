@@ -37,7 +37,7 @@ $outstring .= '</style></head><body>';
 /* Here we get recent testimonials for the blog */
 
 $args = array(
-'numberposts' => 100,
+'numberposts' => 1000,
 'offset' => 0,
 'category' => 0,
 'orderby' => 'post_date',
@@ -50,7 +50,7 @@ $args = array(
 
 $recent_posts = wp_get_recent_posts($args);
 
-$outstring .= '<div class=”widget-testimonials”>';
+$outstring .= '<div class="widget-testimonials">';
 foreach($recent_posts as $recent)
 {
 $querystr = "
